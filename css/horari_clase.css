@@ -1,0 +1,31 @@
+
+a{
+  font-weight: bold  
+}
+.m04{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: goldenrod;
+}
+.m06{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+}
+.m07{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+}
+.m08{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(0, 132, 255)
+}
+.m10{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: brown;
+}
+.tut{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: yellowgreen;
+}
+
+table,th,td {border:1px solid black;}
+                  
