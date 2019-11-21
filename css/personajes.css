@@ -1,0 +1,43 @@
+table,th,td{
+    border: 1px solid black;
+}
+img{
+    width: 300px;
+    height: 175px;
+}
+h1{
+text-align: center;
+}
+#vayne{
+    font-family: 'Odibee Sans', cursive;
+    margin: 30px;
+    padding: 30px;
+    
+}
+#yasuo{
+    font-family: 'Tomorrow', sans-serif;
+    margin: 30px;
+    padding: 30px;
+}
+#riven{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 30px;
+    padding: 30px;
+}
+#teemo{
+    font-family: 'Varela Round', sans-serif;
+    margin: 30px;
+    padding: 30px;
+}
+#yasuo2{
+    color: rgb(16, 190, 243);
+}
+#vayne2{
+    color: blueviolet;
+}
+#riven2{
+    color: rgb(56, 245, 56);
+}
+#teemo2{
+    color: green;
+}
