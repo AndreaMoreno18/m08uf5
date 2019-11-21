@@ -1,0 +1,39 @@
+h1{
+    font-size: 30px;
+    color:green;
+    text-align: center;
+}
+
+#cuadro1{
+    background-color: rgb(255, 141, 129);
+}
+#cuadro2{
+    background-color: rgb(106, 228, 106);
+    font-style:italic;
+    color:rgb(253, 93, 30); 
+}
+#cuadro3{
+    background-color: pink;
+}
+#cuadro4{
+    background-color: rgb(29, 202, 255);
+    font-style: italic;
+    color: red;
+}
+#cuadro5{
+    background-color: grey;
+}
+#informacionbasica{
+    font-style:italic;
+    color: blue;
+}
+#nacionalidad{
+    font-style: italic;
+    color: rgb(253, 93, 30);
+}
+legend{
+    text-decoration-line: underline;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
