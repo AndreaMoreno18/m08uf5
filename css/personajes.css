@@ -41,3 +41,13 @@ text-align: center;
 #teemo2{
     color: green;
 }
+#menu{
+    background-color: rgb(3, 250, 250);
+    color: black;
+    font-size: 40px;
+    border: black solid 2px;
+}
+a:hover{
+    background-color: rgb(94, 94, 238);
+    color:white;
+}
