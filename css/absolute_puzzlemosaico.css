@@ -1,0 +1,113 @@
+#principal{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+div{
+    border:2px solid white;
+}
+#div1,#div2,#div6,#div5,#div12{
+    background-color: rgb(102, 255, 0);
+}
+#div3,#div8,#div10{
+    background: url(../imatges/maestria.jpg);
+    background-repeat: no-repeat;
+    background-size: 125px 105px;
+}
+#div4{
+    background: url(../imatges/yasuo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 125px 160px;
+}
+/*color granate*/
+#div2,#div7,#div9,#div11{
+    background-color: rgb(67, 255, 246);
+}
+/*color negro*/
+#div3,#div8,#div10{
+    background-color:aqua;
+}
+#div1{
+    top: 10px;
+    left:10px;
+    width: 255px;
+    height: 55px;
+    position: absolute;
+}
+#div2{
+    top:10px;
+    right:200px;
+    width: 125px;
+    height: 55px;
+    position: absolute;
+}
+#div3{
+    top:70px;
+    left: 10px;
+    width:125px;
+    height: 105px;
+    position: absolute;
+}
+#div4{
+    top:70px ;
+    left:140px;
+    width: 125px;
+    height: 160px;
+    position: absolute;
+}
+#div5{
+    top:70px ;
+    right:200px;
+    width: 125px;
+    height: 55px;
+    position: absolute;
+}
+#div6{
+    top:180px ;
+    left:10px;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+}
+#div7{
+    top:130px;
+    right:200px;
+    width: 125px;
+    height: 55px;
+    position: absolute;
+}
+#div8{
+    top:190px;
+    right: 200px;
+    width:125px;
+    height: 95px;
+    position: absolute;
+}
+#div9{
+    top:235px;
+    left:140px;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+}
+#div10{
+    top:235px;
+    left: 10px;
+    width:125px;
+    height: 105px;
+    position: absolute;
+}
+#div11{
+    top:290px;
+    left:140px;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+}
+#div12{
+    top:290px;
+    right:200px;
+    width: 125px;
+    height: 50px;
+    position: absolute;
+}
