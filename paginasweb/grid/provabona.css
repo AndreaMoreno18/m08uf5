@@ -53,10 +53,15 @@ div{
 
 }
 #view2{
-   order: 1;
+   order: -1;
+   grid-template-columns: 2;
+grid-template-rows: 3;
 }
 #goku2{
 order: 1;
+opacity: 0.5;
+grid-template-columns: 2;
+grid-template-rows: 3;
 }
 #div7{
     display: grid;
