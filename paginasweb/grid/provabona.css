@@ -1,0 +1,72 @@
+div{
+    border: black 1px solid;
+}
+#primerdiv{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-auto-rows: 20% 20% 20% 20% 20%;
+    grid-column-start:3;
+}
+#div2{ /*nivel 3*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-auto-rows: 20% 20% 20% 20% 20%;
+    grid-column-start:1;
+
+}
+#termina{
+    grid-column-end: 4;
+}
+#div3{ /*nivel 7*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#div3p{
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+#div4{ /*nivel 10*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#div4p{
+    grid-column: 4/6;
+}
+#div5{ /*nivel 12*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#termina3{
+    grid-row-start: 3/2;
+
+}
+#view1{
+    grid-row-start:3/2;
+}
+#div6{ /*nivel 18-19*/
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+}
+#view2{
+   order: 1;
+}
+#goku2{
+order: 1;
+}
+#div7{
+    display: grid;
+   
+}
+#view3{
+    grid-template-columns: 70%;
+    grid-column-start: 2;
+}
+#goku3{
+    grid-template-columns: 30%;
+    grid-column-start: 1;
+}
