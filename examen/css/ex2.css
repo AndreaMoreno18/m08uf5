@@ -1,0 +1,24 @@
+#cuadro1{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+   
+}
+#cuadro2{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+}
+label{
+    font-weight: bolder;
+}
+#id_submit{
+
+    background-color: black;
+    color: azure;
+}
+#id_reset{
+    background-color: black;
+    color: aliceblue;
+}
+

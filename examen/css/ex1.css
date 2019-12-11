@@ -1,0 +1,34 @@
+
+
+table,td,tr{
+    border: 8px black solid;
+    
+   
+}
+
+#celda1{
+    background-color: red;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+#celda2{
+    background-color: brown;
+   text-align: center;
+}
+#celda3{
+    background-color: rgb(255, 0, 119);
+    text-align: center;
+}
+#celda4{
+    background-color: rgb(255, 6, 68);
+    text-align: center;
+}
+#celda5{
+    background-color: rosybrown;
+    text-align: center;
+}
+#celda6{
+    background-color: rgb(204, 51, 51);
+    text-align: center;
+}

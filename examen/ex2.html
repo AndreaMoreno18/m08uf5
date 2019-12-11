@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+    comentaris externs
+-->
+<html lang="en">
+    <head>
+        <title>Ex 2</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/ex2.css"/>
+    </head>
+    <body>
+        <h1>Información sobre el producto</h1>
+        <fieldset>
+            <legend id="cuadro1"> Datos Básicos</legend>
+            <label for="id_text">Nombre:</label> <br/>
+                <input type="text" id="id_text" name="n_text" value="" placeholder="Nombre" required/> <br/>
+                <h1></h1>
+            <label for="id_textarea">Descripción:</label> <br/>
+                <textarea id="id_textarea" name="n_textarea"></textarea> <br/>
+            <label for="id_file">Foto:</label> <br/>
+                <input type="file" id="id_file" name="n_file"/>
+                <h1></h1>
+            <label></label> <br/>
+                <input type="checkbox" id="checkbox" name="n_checkbox[]" value="a" checked/>Añadir contador de visitas
+ 
+        </fieldset>
+        <h2></h2>
+        <fieldset>
+            <legend id="cuadro2"> Datos económicos</legend>
+            <label for="id_number">Precio:</label>
+                <input type="number" id="id_number" name="n_number" value="0"/>
+                <label for="id_number">&euro;</label>
+                <label for="id_select">Impuestos:</label>
+                <select id="id_select" name="n_select">
+                    <option value="default" selected>4%</option>
+                    <option value="a">10%</option>
+                    <option value="c">21%</option>
+                    
+                </select>
+                <h1></h1>
+                <label>Promoción:</label> <br />
+                <input type="radio" id="radio1" name="n_radio" value="a" />Ninguno <br />
+                <input type="radio" id="radio2" name="n_radio" value="c" checked/> Transporte gratuito <br />
+                <input type="radio" id="radio3" name="n_radio" value="g"/> Descuento 5% <br />
+                <h2></h2>
+                <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+                <input type="reset" id="id_reset" name="n_reset" value="Borrar"/>
+                
+        </fieldset>
+    </body>
+</html>
