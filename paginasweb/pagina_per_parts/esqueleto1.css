@@ -78,7 +78,7 @@ border-top:3px solid #760001;
 }
 #banner_image
 {
-background-image: url(imatges/sanfrancisco.jpg);
+background: url(imatges/sanfrancisco.jpg) no-repeat;
 margin-top: 5px;
 height: 200px;
 position: relative;
@@ -98,17 +98,19 @@ height: 33px;
 padding-top: 15px;
 padding-left: 4px;
 color: white;
-font-size: 
+font-size: 0.8em;
+background-color: rgba(24,24,24,0.8);
+padding-bottom: 1px;
 }
 
-#red_button
+.red_button
 {
     display: inline-block;
     height: 25px;
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url('images/red_background.png') repeat-x;
+    background: url('imatges/red_background.png') repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -116,4 +118,131 @@ font-size:
     padding: 3px 8px 0px 8px;
     color: white;
     text-decoration: none;
+}
+/* part 4*/
+
+article, aside{
+    text-align:justify;
+    display: inline-block;
+    vertical-align: top;
+
+}
+    
+article{
+    width: 626px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+
+
+
+.ico_categorie
+{
+    margin-right: 8px;
+    vertical-align: middle;
+} 
+
+
+article p
+{
+    display: inline-block;
+}
+
+
+aside
+{
+    width: 235px;
+    background-color: gray;
+    box-shadow: 0px 2px 5px gray;
+    border-radius:5px;
+    padding:10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside h1
+{
+    display: inline-block;
+
+}
+
+#arrow
+{
+    top: 25px;
+    left: 250px;
+}
+
+#zozor_picture
+{
+border: 1px solid #181818;
+}
+
+aside img /*separo les imatges entre si*/
+{
+    margin-right: 5px;
+}
+/* part 5*/
+
+#tweet, #my_pictures, #my_friends
+{
+vertical-align: top;
+display: inline-block;
+}
+
+#tweet
+{
+width: 28%;
+}
+
+#my_pictures
+{
+width: 35%;
+}
+
+#my_friends
+{
+width: 31%;
+}
+
+#my_pictures img
+{
+border: 1px solid black;
+}
+
+
+#my_friends ul
+{
+vertical-align: top;
+display: inline-block;
+margin-top: 0px;
+width: 48%;
+padding-right: 2px;
+list-style-image: url('imatges/external_link.png');
+}
+
+#my_friends a
+
+{
+text-decoration: none;
+color: #760001;
+}
+
+
+footer
+{
+background: url('imatges/top.png') no-repeat top center;
+background: url('imatges/line.png') repeat-x top;
+background: url ('imatges/shadow.png') repeat-x top;
+}
+
+
+footer p, footer ul
+{
+font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
 }
