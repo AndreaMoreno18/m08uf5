@@ -1,0 +1,64 @@
+body{
+    width: 830px;
+    margin: auto;
+
+}
+
+header{
+    width: 822px;
+}
+main{
+    border: black solid 2px;
+    background-color: #fef2cd;
+}
+hr{
+    width: 130px;
+    display: inline-block;
+    border: solid black 4px;
+    margin: 0px;
+}
+#horoscopo{
+    width: 825px;
+}
+#piedefoto{
+    display: inline-block;
+
+}
+#sighted{
+    display: inline-block;
+    
+}
+article{
+    display: inline;
+    width: 455px;
+    
+}
+#izquierda{
+    width:135px;
+    float: left;
+    
+}
+#derecha{
+    width: 137px;
+    float: right;
+    position: absolute;
+    top:410px;
+    right: 300px;
+}
+
+#siriusimg{
+    width: 822px;
+}
+#hrfooter{
+    border: solid black 2px;
+    width: 822px;
+}
+#imgpiedepag{
+    width: 822px;
+}
+
+#gif{
+    height: 437px;
+    width: 442px;
+}
+
