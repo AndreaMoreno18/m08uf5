@@ -1,0 +1,28 @@
+body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(142, 185, 248);
+}
+header{
+   
+   height: 300px;
+   width: 960px;
+    background-image: url("https://www.allkpop.com/upload/2019/12/content/081043/1575819833-20191208-straykids.jpg")
+}
+nav{
+    width: 960px;
+    font-family: 'Cabin', sans-serif;
+    
+}
+article{
+    font-family: 'Cabin', sans-serif;
+
+}
+h1{
+    font-weight: bolder;
+}
+img{
+    width: 250px;
+    height: 400px;
+}
